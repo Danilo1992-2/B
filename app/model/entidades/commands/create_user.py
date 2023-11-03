@@ -1,7 +1,7 @@
 from datetime import datetime
 from sqlalchemy.orm import sessionmaker
-from entidade import User
 from config import ENGINE
+from entidade import User
 
 
 class NewUser:
